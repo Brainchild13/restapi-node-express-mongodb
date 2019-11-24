@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers 
+
+
+###
+
+GET http://localhost:3000/subscribers/5dda02f2dee9664734526fa6
+
+
+###
+
+POST http://localhost:3000/subscribers 
+Content-Type: application/json
+
+{
+    "name": "David",
+    "subscribedToChannel": "The BrainChild Design"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5dda2d5186c36c0898f16e40
+
+
+###
+
+PATCH  http://localhost:3000/subscribers/5dda2b705260c30d688a1818
+Content-Type: application/json
+
+{
+    "name": "Joseph"
+}
